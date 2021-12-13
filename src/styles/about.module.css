@@ -1,0 +1,23 @@
+.greeting {
+  font-size: 2rem;
+  font-weight: bolder;
+  font-family: 'Jua';
+}
+.highlight {
+  background-image: linear-gradient(
+    to right bottom,
+    var(--c1),
+    var(--c2),
+    var(--c3),
+    var(--c4),
+    var(--c5)
+  );
+  /* rgb(65, 88, 208),
+    rgb(200, 80, 192),
+    rgb(255, 204, 112) */
+  color: transparent;
+  background-clip: text;
+}
+.content {
+  font-family: 'Noto Sans KR';
+}

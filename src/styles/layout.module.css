@@ -1,0 +1,45 @@
+/* .header {
+  background: var(--black);
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.header a:focus,
+.header a:hover {
+  background: var(--white);
+  color: var(--black);
+} */
+
+.container {
+  margin: 3rem auto;
+  max-width: 54ch;
+  font-family: 'Noto Sans KR';
+}
+
+.header {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 3rem 0;
+  font-family: 'Black Han Sans';
+}
+.header a {
+  color: inherit;
+  display: inline-block;
+  text-decoration: none;
+}
+.navLink a {
+  color: inherit;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: 'Jua';
+  border-bottom: 2px solid transparent;
+}
+
+.navLink a:focus,
+.navLink a:hover {
+  border-bottom: 2px solid var(--c3);
+}

@@ -1,0 +1,12 @@
+.article-item {
+  font-family: 'Do Hyeon';
+}
+
+.article-item a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.article-item p {
+  color: var(--c5);
+}
